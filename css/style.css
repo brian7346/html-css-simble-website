@@ -52,6 +52,10 @@ a {
     margin-left: 0;
 }
 
+.list__item-link--active {
+    color: tomato;
+}
+
 .list__item-link:hover {
     color: tomato;
 }
