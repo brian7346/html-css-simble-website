@@ -16,6 +16,7 @@ a {
     text-decoration: none;
 }
 
+/* Контейнер */
 .container {
     max-width: 1008px;
     width: 100%;
@@ -23,6 +24,7 @@ a {
     padding: 0 30px;
 }
 
+/* Шапка */
 .header {
     height: 80px;
     width: 100%;
@@ -64,8 +66,9 @@ a {
     margin-left: auto;
 }
 
+/* Главная страница */
 .main {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 130px);
     display: flex;
     flex-direction: column;
     max-width: 80%;
@@ -128,6 +131,7 @@ a {
     user-select: none;
 }
 
+/* Обо мне */
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -169,6 +173,7 @@ a {
     font-size: 18px;
 }
 
+/* Мои услуги */
 .service {
     border-radius: 8px;
     border: 1px solid;
